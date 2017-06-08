@@ -9,11 +9,6 @@ $(function(){
 		if($(this).val() == "C"){
 			screenVal.val("");
 		}
-		// if($(this).val() == "="){
-		// 	screenVal.val("");
-		// 	screenVal
-		// }
-
 	});
 	$("button").click(function(event){
 		event.preventDefault();
