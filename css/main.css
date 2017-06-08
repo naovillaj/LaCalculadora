@@ -66,3 +66,17 @@ hr{
 	text-align: right;
 	color: white;
 }
+
+input[type="button"], button{
+	border-radius: 50%;
+	border-style: none;
+	width: 19%;
+	height: 21%;
+	margin: 2%;
+	color: white;
+	font-weight: 800;
+	font-size: 15px;
+}
+button:focus, input:focus{
+	outline: none;
+}
